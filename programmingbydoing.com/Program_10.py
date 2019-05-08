@@ -15,7 +15,4 @@ print("Actually, that's not too heavy.")
 print("He's got", eyes, "eyes and", hair, "hair.")
 print("His teeth are usually", teeth, "depending on the coffee.")
 
-print("If I add", age, ",", height, ", and", weight, "I get", (age + height + weight), ".")
-
-
-
+print("If I add " + str(age) + ", " + str(height) + " and " + str(weight) + ", I get " + str(age+height+weight) + ".")
