@@ -1,0 +1,5 @@
+def string_splosion(str):
+  out = ''
+  for i in range(len(str)):
+    out += str[0:i+1]
+  return out
