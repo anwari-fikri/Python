@@ -1,0 +1,11 @@
+def lone_sum(a, b, c):
+  if c==b!=a:
+    return a
+  elif a==c!=b:
+    return b
+  elif a==b!=c:
+    return c
+  elif a==b==c:
+    return 0
+  else:
+    return a+b+c
